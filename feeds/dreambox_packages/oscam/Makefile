@@ -7,9 +7,9 @@
 include $(TOPDIR)/rules.mk
 
 PKG_BRANCH:=trunk
-PKG_SOURCE_URL:=http://streamboard.gmc.to/svn/oscam/trunk
+PKG_SOURCE_URL:=git://github.com/nx111/oscam-nx111.git
 #PKG_REV:=$(shell LC_ALL=C svn info ${PKG_SOURCE_URL} | sed -ne's/^Last Changed Rev: //p')
-PKG_REV:=5339
+PKG_REV:=8557
 
 PKG_NAME:=oscam
 PKG_VERSION:=svn$(PKG_REV)
@@ -17,7 +17,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE:=$(PKG_SOURCE_SUBDIR).tar.gz
-PKG_SOURCE_PROTO:=svn
+PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=$(PKG_REV)
 
 PKG_BUILD_DEPENDS:=
@@ -32,18 +32,18 @@ include $(INCLUDE_DIR)/package.mk
 define Package/oscam
   SECTION:=custom
   CATEGORY:=Custom packages
-  DEPENDS:=+openssl +libopenssl 
+  DEPENDS:=+openssl-util +libopenssl 
   TITLE:=Open Source Conditional Access Module software
-  URL:=http://streamboard.gmc.to/oscam/
+  URL:=http://www.streamboard.tv/oscam/
   SUBMENU:=
 endef
 
 define Package/oscam/description
-	An Open Source Conditional Access Module software,
+  An Open Source Conditional Access Module software,
 based on the very good MpCS version 0.9d created by dukat.
 endef
 
-CONFIGURE_ARGS += --with-ssl=openssl
+CONFIGURE_ARGS += --with-ssl=openssl-util
 
 define Build/Prepare
 	$(call Build/Prepare/Default)
