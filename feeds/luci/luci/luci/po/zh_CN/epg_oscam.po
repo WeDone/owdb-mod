@@ -1,0 +1,30 @@
+#epg_oscam
+msgid "oscam desc"
+msgstr "设置oscam"
+
+msgid "set"
+msgstr "设置"
+
+msgid "enable"
+msgstr "开启"
+
+msgid "interval"
+msgstr "间隔"
+
+msgid "interval_desc"
+msgstr "设置间隔"
+
+msgid "OSCAM Web Intelface"
+msgstr "OSCAM页面"
+
+msgid "Open the oscam Web"
+msgstr "打开oscam页面"
+
+msgid "downaddress"
+msgstr "下载地址"
+
+msgid "epg_desc"
+msgstr "设置epg"
+
+msgid "epgset"
+msgstr "设置"
