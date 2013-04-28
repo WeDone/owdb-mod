@@ -32,7 +32,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/oscam
   SECTION:=custom
   CATEGORY:=Custom packages
-  DEPENDS:=+openssl-util +libopenssl 
+  DEPENDS:=+openssl-util +libopenssl +libpthread
   TITLE:=Open Source Conditional Access Module software
   URL:=http://www.streamboard.tv/oscam/
   SUBMENU:=
