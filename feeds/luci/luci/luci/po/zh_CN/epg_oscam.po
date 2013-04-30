@@ -1,6 +1,10 @@
 #epg_oscam
 msgid "oscam desc"
-msgstr "设置oscam"
+msgstr ""
+"oscam是可以转发cccam账号的一个软件，你可以在这里进行简单的设定后，让路由转"
+"发你的主账号，让局域网，或者外网的机器共享你的主账号，可能会带来被封掉你主"
+"账号的可能 , 谨慎使用！客户端的使用格式为 “c: 路由ip 设置的cccam端口 用户"
+"名 密码” 。参考主账号"
 
 msgid "set"
 msgstr "设置"
@@ -9,22 +13,45 @@ msgid "enable"
 msgstr "开启"
 
 msgid "interval"
-msgstr "间隔"
+msgstr "间隔时间"
 
 msgid "interval_desc"
-msgstr "设置间隔"
+msgstr "定时重启oscam间隔时间 ，单位分钟，设置0关闭"
 
 msgid "OSCAM Web Intelface"
 msgstr "OSCAM页面"
 
 msgid "Open the oscam Web"
-msgstr "打开oscam页面"
+msgstr "点击打开OSCAM网页管理,默认端口8899,用户名：oscam，密码oscam"
 
 msgid "downaddress"
 msgstr "下载地址"
 
 msgid "epg_desc"
-msgstr "设置epg"
+msgstr ""
+"epg电子节目表。在dm500的A版下使用，修改 dm500的epg源地址为：http://路由ip/"
+"atmosphere/epg/epg.xml"
 
 msgid "epgset"
-msgstr "设置"
+msgstr "EPG设定"
+
+msgid "sattv"
+msgstr "卫星电视"
+
+msgid "enable_epg"
+msgstr "开启"
+
+msgid "enable_oscam"
+msgstr "开启"
+
+msgid "epg_title"
+msgstr "EPG电子节目表"
+
+msgid "dowload address"
+msgstr "下载epg源地址"
+
+msgid "OSCAM"
+msgstr "OSCAM"
+
+msgid "EPG"
+msgstr "EPG电子节目表"
