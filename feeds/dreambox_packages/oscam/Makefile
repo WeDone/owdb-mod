@@ -47,7 +47,7 @@ CONFIGURE_ARGS += --with-ssl=openssl-util
 
 define Build/Prepare
 	$(call Build/Prepare/Default)
-	sed -i "s/mips-linux-gcc/mips-openwrt-linux-gcc/g" $(PKG_BUILD_DIR)/toolchains/toolchain-mips-dir825.cmake
+	sed -i "s/mips-linux-gcc/mips-linux-gcc/g" $(PKG_BUILD_DIR)/toolchains/toolchain-mips-dir825.cmake
 	mkdir -p $(PKG_BUILD_DIR)/build
 	cd $(PKG_BUILD_DIR)/build;
 endef
