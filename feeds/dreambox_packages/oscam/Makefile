@@ -6,13 +6,13 @@
 #
 include $(TOPDIR)/rules.mk
 
-PKG_BRANCH:=trunk
+PKG_BRANCH:=master
 PKG_SOURCE_URL:=git://github.com/nx111/oscam-nx111.git
 #PKG_REV:=$(shell LC_ALL=C svn info ${PKG_SOURCE_URL} | sed -ne's/^Last Changed Rev: //p')
-PKG_REV:=8557
+PKG_REV:=09007957b13c14762b5d610e0c99cc3deeb51b71
 
 PKG_NAME:=oscam
-PKG_VERSION:=svn$(PKG_REV)
+PKG_VERSION:=svn8557
 PKG_RELEASE:=1
 
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
@@ -47,7 +47,7 @@ CONFIGURE_ARGS += --with-ssl=openssl-util
 
 define Build/Prepare
 	$(call Build/Prepare/Default)
-	sed -i "s/mips-linux-gcc/mips-linux-gcc/g" $(PKG_BUILD_DIR)/toolchains/toolchain-mips-dir825.cmake
+	sed -i "s/mips-linux-gcc/mips-openwrt-linux-gcc/g" $(PKG_BUILD_DIR)/toolchains/toolchain-mips-dir825.cmake
 	mkdir -p $(PKG_BUILD_DIR)/build
 	cd $(PKG_BUILD_DIR)/build;
 endef
