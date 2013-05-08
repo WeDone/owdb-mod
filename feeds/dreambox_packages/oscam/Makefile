@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 PKG_BRANCH:=master
 PKG_SOURCE_URL:=git://github.com/nx111/oscam-nx111.git
 #PKG_REV:=$(shell LC_ALL=C svn info ${PKG_SOURCE_URL} | sed -ne's/^Last Changed Rev: //p')
-PKG_REV:=09007957b13c14762b5d610e0c99cc3deeb51b71
+PKG_REV:=09007957b1
 
 PKG_NAME:=oscam
 PKG_VERSION:=svn8557
