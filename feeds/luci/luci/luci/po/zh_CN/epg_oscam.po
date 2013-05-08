@@ -1,4 +1,18 @@
-#epg_oscam
+﻿#epg_oscam
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-02 13:44+0100\n"
+"PO-Revision-Date: 2011-04-20 22:59+0800\n"
+"Last-Translator: Openwrt <openwrt@openwrt.org>\n"
+"Language-Team: China\n"
+"Language: zh-cn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 msgid "oscam desc"
 msgstr ""
 "oscam是可以转发cccam账号的一个软件，你可以在这里进行简单的设定后，让路由转"
@@ -10,7 +24,7 @@ msgid "set"
 msgstr "设置"
 
 msgid "enable"
-msgstr "开启"
+msgstr "启用"
 
 msgid "interval"
 msgstr "间隔时间"
@@ -19,7 +33,7 @@ msgid "interval_desc"
 msgstr "定时重启oscam间隔时间 ，单位分钟，设置0关闭"
 
 msgid "OSCAM Web Intelface"
-msgstr "OSCAM页面"
+msgstr "OSCAM页面接口"
 
 msgid "Open the oscam Web"
 msgstr "点击打开OSCAM网页管理,默认端口8899,用户名：oscam，密码oscam"
@@ -39,10 +53,10 @@ msgid "sattv"
 msgstr "卫星电视"
 
 msgid "enable_epg"
-msgstr "开启"
+msgstr "启用"
 
 msgid "enable_oscam"
-msgstr "开启"
+msgstr "启用"
 
 msgid "epg_title"
 msgstr "EPG电子节目表"
