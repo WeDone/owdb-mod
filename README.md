@@ -1,4 +1,4 @@
-owdb-mod
+luci-oscam
 ========
 
 OpenWrt-DreamBox mod
